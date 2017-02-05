@@ -1,4 +1,7 @@
 console.log('Loaded!');
 // move the image
 
-get
+var img = document.getElementById('img');
+ img.onclick = function () {
+     img.style.marginLeft = '100px';
+ };
