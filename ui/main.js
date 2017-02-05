@@ -2,8 +2,9 @@ console.log('Loaded!');
 // move the image
 
 var img = document.getElementById('atul');
+var marginLeft = 0;
 function moveRight(){
-    var marginLeft = 0;
+    
     marginLeft = marginLeft + 10;
     img.style.marginLeft = marginLeft + 'px';
 }
